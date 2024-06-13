@@ -1,0 +1,294 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #dacec3e3;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #7f624eae, #5f5955);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #dacec3e3;
+}
+
+.header{
+    background-color: #ecdfd3e3;
+    display: flex;
+    position: relative;
+    width: 98%;
+    background-size: cover;
+    padding: 0.2% 2% 44% 0;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+    transition: opacity 1s ease-in-out;
+}
+
+.wrapper{
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.Background{
+    background: url(../images/stray_kids.jpg) no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-size: cover;
+    transition: opacity 1s ease-in-out;
+    z-index: 0;
+}
+
+.header__element{
+    margin-left: 9%;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+}
+
+.header__element:hover{
+    text-decoration:underline;
+}
+
+.header__element:active{
+    margin: 0.25% 0 0 9.2%;
+    font: 400 24px "Lora";
+    color: #5f4e3ee1;
+    text-decoration: none;
+}
+
+.header-button{
+    font: 400 26px "Lora";
+}
+
+.header-button__element{
+    padding-left: 20px;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+}
+
+.header-button__element:hover{
+    text-decoration: underline;
+}
+
+.header-button__element:active{
+    padding: 0.25% 2px 0 20px;
+    font: 400 24px "Lora";
+    color: #5f4e3ee1;
+    text-decoration: none;
+}
+
+.header-button__element_actived:active{
+    padding: 0.25% 4px 0 28px;
+}
+
+.sing-in{
+    position: relative;
+    background: linear-gradient(to top, #ccc1b7 80%, #5f5955 20%);
+    margin: 14% 33%;
+    width: 38%;
+    border-radius: 30px;
+    cursor: default;
+}
+
+.sing-in__cross{
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    background-color: transparent;
+    color: #e3ded9e3;
+    font: 400 24px "Lora";
+    border: none;
+    cursor: pointer;
+}
+
+.sing-in__cross:hover{
+    color: #ebe7e3;
+}
+
+.sing-in__cross:active{
+    color: #efece9;
+    right: 16px;
+    top: 11px;
+    font: 400 20px "Lora";
+}
+
+.modal-window{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    opacity: 1;
+    cursor: pointer;
+    display: none;
+}
+
+.sing-in__exit{
+    display: flex;
+    justify-content: center;
+    color: #e3ded9e3;
+    font: 400 30px "Lora";
+}
+
+.sing-in-information{ 
+    color: #5f4e3e;
+    font: 400 26px "Lora";
+}
+
+.sing-in-information__element{
+    padding: 2% 2% 0;
+}
+
+.sing-in__button{
+    display: flex;
+    justify-content: center;
+    background-color: #bdb3a9; 
+    margin-top: 3%;
+    color: #5f4e3e;
+    font: 400 24px "Lora";
+    border-radius: 10px;
+    padding: 0 2%;
+}
+
+.sing-in__button:hover{
+    background-color: #d3ccc5; 
+    border-color: #bab2aa;
+    color: #7d6043e6;
+}
+.sing-in__button:active{
+    background-color: #d3ccc5; 
+    border-color: #bab2aa;
+    color: #7d6043e6;
+    font: 400 22px "Lora";
+}
+
+.sing-in-information__element-centre{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    color: #5f4e3e;
+    font: 400 20px "Lora";
+}
+
+.sing-in-information__element-centre_actived:hover{
+    text-decoration: underline;
+}
+
+.sing-in-information__element-centre_actived:active{
+    color: #7d6043e6;
+    font: 400 18px "Lora";
+    padding-bottom: 2.32%;
+}
+
+.sing-in-information__fild-enter{
+    color: #5f4e3e;
+    font: 400 20px "Lora";
+}
+
+.main-information{
+    padding: 6%;
+    background-color: #5f5955;
+    color: #e3ded9e3;
+    font: 400 26px "Lora";
+}
+
+.mambers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.2%;
+    padding: 10% 13% 8%;
+    background-color: #ecdfd3e3;
+    font: 400 20px "Lora";
+    color: #312622;
+}
+
+.mamber{
+    padding-top: 2%;
+}
+
+.mamber__img{
+    width: 250px;
+    padding-bottom: 0.51%;
+}
+
+.mamber__text{
+    width: 250px;
+    padding-top: 1%;
+}
+
+.mamber__link{
+    color: #312622;
+    text-decoration: none;
+}
+
+.mamber__link:hover{
+    text-decoration: underline;
+}
+
+.mamber__link:active{
+    padding: 0.1% 0 0 2%;
+    font: 400 20px "Lora";
+    color: #312622eb;
+    text-decoration: none;
+}
+
+.plays{
+    display: flex;
+    justify-content: right;
+    padding: 0 5% 1% 0;
+    background-color: #ecdfd3e3;
+}
+
+.plays__link{
+    font: 400 36px "Lora";
+    color: #312622;
+    text-decoration: none;
+}
+
+.plays__link:hover{
+    text-decoration: underline;
+}
+
+.plays__link:active{
+    color: #312622aa;
+    font: 400 35px "Lora";
+    padding: 0.05% 0.1% 0 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #5f5955;
+    padding: 2.5%;
+}
+
+.footer__link{
+    color: #e3ded9e3;
+    font: 400 26px "Lora";
+    text-decoration: none;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+.footer__link:active{
+    padding: 0.31%;
+    color: #e3ded9cf;
+    font: 400 24px "Lora";
+    text-decoration: none;
+}

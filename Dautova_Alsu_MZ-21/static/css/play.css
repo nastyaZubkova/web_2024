@@ -1,0 +1,136 @@
+*{
+    background-color: #ecdfd3e3;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #dacec3e3;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #7f624eae, #5f5955);
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #dacec3e3;
+}
+
+.header{
+    display: flex;
+    width: 98%;
+    background-size: cover;
+    padding: 0.2% 2% 2% 0;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.header__element{
+    margin-left: 9%;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+}
+
+.header__element:hover{
+    text-decoration:underline;
+}
+
+.header__element:active{
+    margin: 0.25% 0 0 9.2%;
+    font: 400 24px "Lora";
+    color: #5f4e3ee1;
+    text-decoration: none;
+}
+
+.header-button{
+    font: 400 26px "Lora";
+}
+
+.header-button__element{
+    padding-left: 20px;
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    text-decoration: none;
+}
+
+.header-button__element:hover{
+    text-decoration: underline;
+}
+
+.header-button__element:active{
+    padding: 0.25% 2px 0 20px;
+    font: 400 24px "Lora";
+    color: #5f4e3ee1;
+    text-decoration: none;
+}
+
+.header-button__element_actived:active{
+    padding: 0.25% 4px 0 28px;
+}
+
+.playing-field{
+    display: flex;
+    height: 60%;
+    margin: 1.5% 20% 0;
+    padding: 1% 1% 1% 0;
+    border: solid 2px #5f4e3ee1;
+    gap: 2%;
+    background-color: #dfd1c4e3;
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+}
+
+.images{
+    /* background: url(../images/bang_chan.jpg); */
+    width: 400px;
+    height: 550px;
+    background-size: cover;
+    border: solid 2px #5f4e3ee1;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfd1c4e3;
+    max-width: 50%;
+    width: 50%;
+    gap: 1.5%;
+}
+
+.playing-field__button{
+    font: 400 26px "Lora";
+    color: #5f4e3e;
+    padding: 2%;
+    background-color: #ecdfd3e3;
+    /* width: 20%; */
+}
+
+.playing-field__button:hover{
+    background-color: #f7eae2dc;
+    color: #5f4e3ed2;
+}
+
+.playing-field__button:active{
+    background-color: #f7eae2dc;
+    color: #5f4e3ed2;
+    width: 96%;
+    margin: 0.4% 0 0.4% 2%;
+    font: 400 24px "Lora";
+}
+
+.question{
+    font: 400 36px "Lora";
+    color: #312622;
+    background-color: #dfd1c4e3;
+    text-decoration: none;
+    padding: 0 0 0 34%;
+}
+
+.launching-the-game{
+    opacity: 0;
+    visibility: hidden;
+}
